@@ -1,0 +1,50 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Border-Radius Tool</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>BORDER-RADIUS PREVIEWER</h1>
+            <div class="main-box"></div>
+            <h2 class="printed-text"></h2>
+            <button class="copy-text">Copy Text</button>
+            <div class="row">
+                <label>horizontal values:</label>
+                <input type="range" name="x1">
+                <input type="range" name="x2">
+                <input type="range" name="x3">
+                <input type="range" name="x4">
+            </div>
+            <div class="row">
+                <label>vertical values:</label>
+                <input type="range" name="y1">
+                <input type="range" name="y2">
+                <input type="range" name="y3">
+                <input type="range" name="y4">
+            </div>
+            <div class="row">
+                <label>select units: </label>
+                <select name="units" id="unit-selector">
+                    <option value="%">%</option>
+                    <option value="px">px</option>
+                    <option value="em">em</option>
+                    <option value="rem">rem</option>
+                </select>
+            </div>
+            <div class="row">
+                <button class="dance-button">MAKE IT DANCE</button>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+
+    </html>
